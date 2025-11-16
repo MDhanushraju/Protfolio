@@ -5,14 +5,14 @@ import profileImg from '../assets/IMG-20240927-WA0025.jpg';
 
 export default function Home(props) {
   const text = "Welcome to my digital space!";
-  const words = text.split('');
+  const words = text.split(' ');
   const [visibleWordCount, setVisibleWordCount] = useState(0);
 
   useEffect(() => {
     if (visibleWordCount < words.length) {
       const timeout = setTimeout(() => {
         setVisibleWordCount(visibleWordCount + 1);
-      }, 100);
+      }, 300);
       return () => clearTimeout(timeout);
     }
   }, [visibleWordCount, words.length]);
@@ -39,16 +39,18 @@ export default function Home(props) {
         aria-label="Profile photo of Dhanush M"
       ></div> */}
       <h2 className="text animated-letters" aria-label={text.trim()}>
-        {words.map((word, index) => (
-          <span
-            key={index}
-            className={`word ${index < visibleWordCount ? 'visible' : ''}`}
-            style={{ transitionDelay: `${index * 0.1}s` }}
-          >
-            {word === ' ' ? '\u00A0' : word}
-          </span>
-        ))}
-      </h2>
+  {words.map((word, index) => (
+    <span
+      key={index}
+      className={`word ${index < visibleWordCount ? 'visible' : ''}`}
+      style={{ transitionDelay: `${index * 0.3}s` }}
+    >
+      {word}
+      {index < words.length - 1 && <span>{'\u00A0'}</span>}
+    </span>
+  ))}
+</h2>
+
       <p className="subtitle">
         I'm Dhanush M—enthusiastic coder, lifelong learner, and frontend developer passionate about crafting seamless web experiences.
       </p>
