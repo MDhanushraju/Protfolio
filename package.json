@@ -1,18 +1,16 @@
 {
-  
-
-  "name": "package.json",
+  "name": "portfolio-mdr",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://MDhanushraju.github.io/Portfolio_MDR/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-"deploy": "gh-pages -d dist"
-
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
