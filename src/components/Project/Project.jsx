@@ -34,7 +34,7 @@ export default function Project() {
               </div>
               <div className="card-footer foot-1 ">
                 <button className='btn btn-success'>
-                  <a href="https://mdhanushraju.github.io/Portfolio/" target='_blank' className='a-1' style={{textDecoration:"none",color:"white"}}>view</a>
+                  <a href="https://mdhanushraju.github.io/Portfolio_MDR/" target='_blank' className='a-1' style={{textDecoration:"none",color:"white"}}>view</a>
                 </button>
               </div>
             </div>
