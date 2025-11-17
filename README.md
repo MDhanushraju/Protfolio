@@ -1,35 +1,12 @@
-Dhanush M | Front-End Developer Portfolio
-Welcome to my portfolio!
-I'm Dhanush M, an enthusiastic front-end developer passionate about building impactful, user-friendly web applications. My portfolio showcases projects crafted with React.js, modern JavaScript, and robust API integrations.
+# React + Vite
 
-🚀 About Me
-Recent ECE graduate actively seeking front-end developer opportunities.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Skilled in React.js, JavaScript (ES6), HTML5, CSS3, Node.js, and RESTful APIs.
+Currently, two official plugins are available:
 
-Strong focus on clean code, responsive design, and accessibility.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-🛠️ Projects Included
-Weather App: Real-time weather forecasts and city search using OpenWeatherMap API and React.js.
+## Expanding the ESLint configuration
 
-Food Recipe Explorer: Recipe listing with search, filtering, and pagination via external APIs.
-
-Bubble Hit Score Game: Casual browser game built with vanilla JS and CSS.
-
-Expense Tracker, Hotel Booking UI, Todo Apps: Demonstrating CRUD, state management, and modular design.
-
-📚 What You’ll Find
-Modular, production-ready components.
-
-Interactive UIs with responsive layouts.
-
-Code samples showcasing best practices in React and JavaScript.
-
-🔗 Demo & Contact
-Portfolio Live Demo
-
-[GitHub](https://github.com/MDhanushraju/)
-
-www.linkedin.com/in/mdhanush03
-
-Email: mdhanushraju345@gmail.com
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
