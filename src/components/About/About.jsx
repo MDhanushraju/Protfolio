@@ -26,7 +26,7 @@ export default function About() {
             <div className="tab-contents skills">
               <ul>
                 <li><span>Languages & Frameworks: </span><br />HTML5, CSS3, JavaScript (ES6), React.js, Bootstrap</li>
-          <li><span>Libraries & Tools:</span><br />Git, GitHub, Redux (familiar), Tailwind CSS (familiar),Webpack/Vite (familiar).</li>
+          <li><span>Libraries & Tools:</span><br />Git, GitHub, Redux (familiar),Webpack/Vite (familiar).</li>
              <li><span>Core Competencies:</span><br /> Responsive Design, Accessibility, API Integration (REST), DOM Manipulation,
 Debugging, Cross-Browser Optimization</li>
 <li><span>Workflows: </span><br /> Agile, Scrum, Version Control, Collaboration</li>
