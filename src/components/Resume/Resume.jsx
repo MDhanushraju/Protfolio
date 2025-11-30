@@ -2,7 +2,7 @@ import React from 'react';
 import "./Resume.css";
 
 // import resume from "..assets/M_Dhanush_Resume (2).pdf"
-const resumeup = "public/M_Dhanush_Front_End.pdf";
+const resumeup = "public/M_Dhanush_Front_End (3).pdf"
 
 export default function Resume({setResume}) {
   return (
