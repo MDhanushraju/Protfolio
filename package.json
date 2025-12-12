@@ -1,9 +1,9 @@
 {
-  "name": "portfolio-mdr",
+  "name": "portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://MDhanushraju.github.io/Portfolio_MDR/",
+  "homepage": "https://MDhanushraju.github.io/Protfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
