@@ -15,7 +15,7 @@ export default function Project() {
       title: "Portfolio",
       img: Portfolio,
       alt: "Screenshot of portfolio project",
-      url: "https://mdhanushraju.github.io/Portfolio_MDR/"
+      url: " https://MDhanushraju.github.io/Protfolio/"
     },
     {
       title: "Weather-checker",
