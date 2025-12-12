@@ -1,6 +1,6 @@
 .open{
     position: fixed;
-    top: 20px;
+    top: -30px;
     left: 15%;
     z-index: 1000;
 }
