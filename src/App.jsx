@@ -45,7 +45,7 @@ export default function App() {
       {
         resume && <Resume id="resume" setResume={setResume} />
       }
-      <Education/>
+     
       <Project id="project" />
       <Contact id="contact" />
 
